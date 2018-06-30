@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52611C420639FEB00C1DC96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52611C320639FEB00C1DC96 /* AppDelegate.swift */; };
+		F52611C620639FEB00C1DC96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52611C520639FEB00C1DC96 /* ViewController.swift */; };
+		F52611C920639FEB00C1DC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52611C720639FEB00C1DC96 /* Main.storyboard */; };
+		F52611CB20639FEB00C1DC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52611CA20639FEB00C1DC96 /* Assets.xcassets */; };
+		F52611CE20639FEB00C1DC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52611CC20639FEB00C1DC96 /* LaunchScreen.storyboard */; };
+		F52611D920639FEB00C1DC96 /* microphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52611D820639FEB00C1DC96 /* microphoneTests.swift */; };
+		F52611E420639FEB00C1DC96 /* microphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52611E320639FEB00C1DC96 /* microphoneUITests.swift */; };
+		F52611F22063A0DF00C1DC96 /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52611F12063A0DF00C1DC96 /* RecordWhistleViewController.swift */; };
+		F59F430A2063AB6400DA7B45 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F43092063AB6400DA7B45 /* SoundPlayer.swift */; };
+		F59F430C2063B21200DA7B45 /* SoundAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F430B2063B21200DA7B45 /* SoundAnalyzer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52611D520639FEB00C1DC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52611B820639FEB00C1DC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52611BF20639FEB00C1DC96;
+			remoteInfo = microphone;
+		};
+		F52611E020639FEB00C1DC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52611B820639FEB00C1DC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52611BF20639FEB00C1DC96;
+			remoteInfo = microphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F52611C020639FEB00C1DC96 /* microphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52611C320639FEB00C1DC96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F52611C520639FEB00C1DC96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F52611C820639FEB00C1DC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F52611CA20639FEB00C1DC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52611CD20639FEB00C1DC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F52611CF20639FEB00C1DC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52611D420639FEB00C1DC96 /* microphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52611D820639FEB00C1DC96 /* microphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microphoneTests.swift; sourceTree = "<group>"; };
+		F52611DA20639FEB00C1DC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52611DF20639FEB00C1DC96 /* microphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52611E320639FEB00C1DC96 /* microphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microphoneUITests.swift; sourceTree = "<group>"; };
+		F52611E520639FEB00C1DC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52611F12063A0DF00C1DC96 /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
+		F59F43092063AB6400DA7B45 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		F59F430B2063B21200DA7B45 /* SoundAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnalyzer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52611BD20639FEB00C1DC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52611D120639FEB00C1DC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52611DC20639FEB00C1DC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F52611B720639FEB00C1DC96 = {
+			isa = PBXGroup;
+			children = (
+				F52611C220639FEB00C1DC96 /* microphone */,
+				F52611D720639FEB00C1DC96 /* microphoneTests */,
+				F52611E220639FEB00C1DC96 /* microphoneUITests */,
+				F52611C120639FEB00C1DC96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52611C120639FEB00C1DC96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52611C020639FEB00C1DC96 /* microphone.app */,
+				F52611D420639FEB00C1DC96 /* microphoneTests.xctest */,
+				F52611DF20639FEB00C1DC96 /* microphoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52611C220639FEB00C1DC96 /* microphone */ = {
+			isa = PBXGroup;
+			children = (
+				F52611C320639FEB00C1DC96 /* AppDelegate.swift */,
+				F52611C520639FEB00C1DC96 /* ViewController.swift */,
+				F52611F12063A0DF00C1DC96 /* RecordWhistleViewController.swift */,
+				F59F43092063AB6400DA7B45 /* SoundPlayer.swift */,
+				F59F430B2063B21200DA7B45 /* SoundAnalyzer.swift */,
+				F52611C720639FEB00C1DC96 /* Main.storyboard */,
+				F52611CA20639FEB00C1DC96 /* Assets.xcassets */,
+				F52611CC20639FEB00C1DC96 /* LaunchScreen.storyboard */,
+				F52611CF20639FEB00C1DC96 /* Info.plist */,
+			);
+			path = microphone;
+			sourceTree = "<group>";
+		};
+		F52611D720639FEB00C1DC96 /* microphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F52611D820639FEB00C1DC96 /* microphoneTests.swift */,
+				F52611DA20639FEB00C1DC96 /* Info.plist */,
+			);
+			path = microphoneTests;
+			sourceTree = "<group>";
+		};
+		F52611E220639FEB00C1DC96 /* microphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F52611E320639FEB00C1DC96 /* microphoneUITests.swift */,
+				F52611E520639FEB00C1DC96 /* Info.plist */,
+			);
+			path = microphoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52611BF20639FEB00C1DC96 /* microphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52611E820639FEB00C1DC96 /* Build configuration list for PBXNativeTarget "microphone" */;
+			buildPhases = (
+				F52611BC20639FEB00C1DC96 /* Sources */,
+				F52611BD20639FEB00C1DC96 /* Frameworks */,
+				F52611BE20639FEB00C1DC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = microphone;
+			productName = microphone;
+			productReference = F52611C020639FEB00C1DC96 /* microphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52611D320639FEB00C1DC96 /* microphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52611EB20639FEB00C1DC96 /* Build configuration list for PBXNativeTarget "microphoneTests" */;
+			buildPhases = (
+				F52611D020639FEB00C1DC96 /* Sources */,
+				F52611D120639FEB00C1DC96 /* Frameworks */,
+				F52611D220639FEB00C1DC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52611D620639FEB00C1DC96 /* PBXTargetDependency */,
+			);
+			name = microphoneTests;
+			productName = microphoneTests;
+			productReference = F52611D420639FEB00C1DC96 /* microphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F52611DE20639FEB00C1DC96 /* microphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52611EE20639FEB00C1DC96 /* Build configuration list for PBXNativeTarget "microphoneUITests" */;
+			buildPhases = (
+				F52611DB20639FEB00C1DC96 /* Sources */,
+				F52611DC20639FEB00C1DC96 /* Frameworks */,
+				F52611DD20639FEB00C1DC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52611E120639FEB00C1DC96 /* PBXTargetDependency */,
+			);
+			name = microphoneUITests;
+			productName = microphoneUITests;
+			productReference = F52611DF20639FEB00C1DC96 /* microphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52611B820639FEB00C1DC96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jonah Alle Monne";
+				TargetAttributes = {
+					F52611BF20639FEB00C1DC96 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F52611D320639FEB00C1DC96 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F52611BF20639FEB00C1DC96;
+					};
+					F52611DE20639FEB00C1DC96 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F52611BF20639FEB00C1DC96;
+					};
+				};
+			};
+			buildConfigurationList = F52611BB20639FEB00C1DC96 /* Build configuration list for PBXProject "microphone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52611B720639FEB00C1DC96;
+			productRefGroup = F52611C120639FEB00C1DC96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52611BF20639FEB00C1DC96 /* microphone */,
+				F52611D320639FEB00C1DC96 /* microphoneTests */,
+				F52611DE20639FEB00C1DC96 /* microphoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52611BE20639FEB00C1DC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52611CE20639FEB00C1DC96 /* LaunchScreen.storyboard in Resources */,
+				F52611CB20639FEB00C1DC96 /* Assets.xcassets in Resources */,
+				F52611C920639FEB00C1DC96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52611D220639FEB00C1DC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52611DD20639FEB00C1DC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52611BC20639FEB00C1DC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59F430C2063B21200DA7B45 /* SoundAnalyzer.swift in Sources */,
+				F52611C620639FEB00C1DC96 /* ViewController.swift in Sources */,
+				F52611C420639FEB00C1DC96 /* AppDelegate.swift in Sources */,
+				F59F430A2063AB6400DA7B45 /* SoundPlayer.swift in Sources */,
+				F52611F22063A0DF00C1DC96 /* RecordWhistleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52611D020639FEB00C1DC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52611D920639FEB00C1DC96 /* microphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52611DB20639FEB00C1DC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52611E420639FEB00C1DC96 /* microphoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52611D620639FEB00C1DC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52611BF20639FEB00C1DC96 /* microphone */;
+			targetProxy = F52611D520639FEB00C1DC96 /* PBXContainerItemProxy */;
+		};
+		F52611E120639FEB00C1DC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52611BF20639FEB00C1DC96 /* microphone */;
+			targetProxy = F52611E020639FEB00C1DC96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F52611C720639FEB00C1DC96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52611C820639FEB00C1DC96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F52611CC20639FEB00C1DC96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52611CD20639FEB00C1DC96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52611E620639FEB00C1DC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F52611E720639FEB00C1DC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52611E920639FEB00C1DC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4YFA782YD;
+				INFOPLIST_FILE = microphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.com.microphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52611EA20639FEB00C1DC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4YFA782YD;
+				INFOPLIST_FILE = microphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.com.microphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F52611EC20639FEB00C1DC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4YFA782YD;
+				INFOPLIST_FILE = microphoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.com.microphoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microphone.app/microphone";
+			};
+			name = Debug;
+		};
+		F52611ED20639FEB00C1DC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4YFA782YD;
+				INFOPLIST_FILE = microphoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.com.microphoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microphone.app/microphone";
+			};
+			name = Release;
+		};
+		F52611EF20639FEB00C1DC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4YFA782YD;
+				INFOPLIST_FILE = microphoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.com.microphoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = microphone;
+			};
+			name = Debug;
+		};
+		F52611F020639FEB00C1DC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4YFA782YD;
+				INFOPLIST_FILE = microphoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.com.microphoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = microphone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52611BB20639FEB00C1DC96 /* Build configuration list for PBXProject "microphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52611E620639FEB00C1DC96 /* Debug */,
+				F52611E720639FEB00C1DC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52611E820639FEB00C1DC96 /* Build configuration list for PBXNativeTarget "microphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52611E920639FEB00C1DC96 /* Debug */,
+				F52611EA20639FEB00C1DC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52611EB20639FEB00C1DC96 /* Build configuration list for PBXNativeTarget "microphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52611EC20639FEB00C1DC96 /* Debug */,
+				F52611ED20639FEB00C1DC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52611EE20639FEB00C1DC96 /* Build configuration list for PBXNativeTarget "microphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52611EF20639FEB00C1DC96 /* Debug */,
+				F52611F020639FEB00C1DC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52611B820639FEB00C1DC96 /* Project object */;
+}
