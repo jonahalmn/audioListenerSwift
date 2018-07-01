@@ -17,6 +17,7 @@
 		F52611F22063A0DF00C1DC96 /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52611F12063A0DF00C1DC96 /* RecordWhistleViewController.swift */; };
 		F59F430A2063AB6400DA7B45 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F43092063AB6400DA7B45 /* SoundPlayer.swift */; };
 		F59F430C2063B21200DA7B45 /* SoundAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F430B2063B21200DA7B45 /* SoundAnalyzer.swift */; };
+		F5B4AC3C20E94D4B00A6473F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4AC3B20E94D4B00A6473F /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F52611F12063A0DF00C1DC96 /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
 		F59F43092063AB6400DA7B45 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		F59F430B2063B21200DA7B45 /* SoundAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnalyzer.swift; sourceTree = "<group>"; };
+		F5B4AC3B20E94D4B00A6473F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				F52611C520639FEB00C1DC96 /* ViewController.swift */,
 				F52611F12063A0DF00C1DC96 /* RecordWhistleViewController.swift */,
 				F59F43092063AB6400DA7B45 /* SoundPlayer.swift */,
+				F5B4AC3B20E94D4B00A6473F /* Game.swift */,
 				F59F430B2063B21200DA7B45 /* SoundAnalyzer.swift */,
 				F52611C720639FEB00C1DC96 /* Main.storyboard */,
 				F52611CA20639FEB00C1DC96 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59F430C2063B21200DA7B45 /* SoundAnalyzer.swift in Sources */,
+				F5B4AC3C20E94D4B00A6473F /* Game.swift in Sources */,
 				F52611C620639FEB00C1DC96 /* ViewController.swift in Sources */,
 				F52611C420639FEB00C1DC96 /* AppDelegate.swift in Sources */,
 				F59F430A2063AB6400DA7B45 /* SoundPlayer.swift in Sources */,
